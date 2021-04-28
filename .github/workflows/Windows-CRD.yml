@@ -10,9 +10,13 @@ on:
         description: 'Six digit Pin'
         required: true
   
-jobs:
-  build:
-    runs-on: windows-latest
+jobs: bulid
+required: true
+
+build: alive
+required: true
+  
+  runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v2
